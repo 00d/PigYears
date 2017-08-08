@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		295D73E81F39BFF6008A3D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D73E71F39BFF6008A3D15 /* AppDelegate.swift */; };
+		295D73EA1F39BFF6008A3D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D73E91F39BFF6008A3D15 /* ViewController.swift */; };
+		295D73ED1F39BFF6008A3D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295D73EB1F39BFF6008A3D15 /* Main.storyboard */; };
+		295D73EF1F39BFF6008A3D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295D73EE1F39BFF6008A3D15 /* Assets.xcassets */; };
+		295D73F21F39BFF6008A3D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */; };
+		295D73FD1F39BFF6008A3D15 /* Pig_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D73FC1F39BFF6008A3D15 /* Pig_YearsTests.swift */; };
+		295D74081F39BFF6008A3D15 /* Pig_YearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		295D73F91F39BFF6008A3D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 295D73DC1F39BFF5008A3D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295D73E31F39BFF5008A3D15;
+			remoteInfo = "Pig Years";
+		};
+		295D74041F39BFF6008A3D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 295D73DC1F39BFF5008A3D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295D73E31F39BFF5008A3D15;
+			remoteInfo = "Pig Years";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		295D73E41F39BFF5008A3D15 /* Pig Years.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pig Years.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295D73E71F39BFF6008A3D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		295D73E91F39BFF6008A3D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		295D73EC1F39BFF6008A3D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		295D73EE1F39BFF6008A3D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		295D73F11F39BFF6008A3D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		295D73F31F39BFF6008A3D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295D73F81F39BFF6008A3D15 /* Pig YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pig YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295D73FC1F39BFF6008A3D15 /* Pig_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig_YearsTests.swift; sourceTree = "<group>"; };
+		295D73FE1F39BFF6008A3D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295D74031F39BFF6008A3D15 /* Pig YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pig YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig_YearsUITests.swift; sourceTree = "<group>"; };
+		295D74091F39BFF6008A3D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		295D73E11F39BFF5008A3D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D73F51F39BFF6008A3D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D74001F39BFF6008A3D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		295D73DB1F39BFF5008A3D15 = {
+			isa = PBXGroup;
+			children = (
+				295D73E61F39BFF6008A3D15 /* Pig Years */,
+				295D73FB1F39BFF6008A3D15 /* Pig YearsTests */,
+				295D74061F39BFF6008A3D15 /* Pig YearsUITests */,
+				295D73E51F39BFF6008A3D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		295D73E51F39BFF6008A3D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				295D73E41F39BFF5008A3D15 /* Pig Years.app */,
+				295D73F81F39BFF6008A3D15 /* Pig YearsTests.xctest */,
+				295D74031F39BFF6008A3D15 /* Pig YearsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		295D73E61F39BFF6008A3D15 /* Pig Years */ = {
+			isa = PBXGroup;
+			children = (
+				295D73E71F39BFF6008A3D15 /* AppDelegate.swift */,
+				295D73E91F39BFF6008A3D15 /* ViewController.swift */,
+				295D73EB1F39BFF6008A3D15 /* Main.storyboard */,
+				295D73EE1F39BFF6008A3D15 /* Assets.xcassets */,
+				295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */,
+				295D73F31F39BFF6008A3D15 /* Info.plist */,
+			);
+			path = "Pig Years";
+			sourceTree = "<group>";
+		};
+		295D73FB1F39BFF6008A3D15 /* Pig YearsTests */ = {
+			isa = PBXGroup;
+			children = (
+				295D73FC1F39BFF6008A3D15 /* Pig_YearsTests.swift */,
+				295D73FE1F39BFF6008A3D15 /* Info.plist */,
+			);
+			path = "Pig YearsTests";
+			sourceTree = "<group>";
+		};
+		295D74061F39BFF6008A3D15 /* Pig YearsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */,
+				295D74091F39BFF6008A3D15 /* Info.plist */,
+			);
+			path = "Pig YearsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		295D73E31F39BFF5008A3D15 /* Pig Years */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295D740C1F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig Years" */;
+			buildPhases = (
+				295D73E01F39BFF5008A3D15 /* Sources */,
+				295D73E11F39BFF5008A3D15 /* Frameworks */,
+				295D73E21F39BFF5008A3D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pig Years";
+			productName = "Pig Years";
+			productReference = 295D73E41F39BFF5008A3D15 /* Pig Years.app */;
+			productType = "com.apple.product-type.application";
+		};
+		295D73F71F39BFF6008A3D15 /* Pig YearsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295D740F1F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig YearsTests" */;
+			buildPhases = (
+				295D73F41F39BFF6008A3D15 /* Sources */,
+				295D73F51F39BFF6008A3D15 /* Frameworks */,
+				295D73F61F39BFF6008A3D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				295D73FA1F39BFF6008A3D15 /* PBXTargetDependency */,
+			);
+			name = "Pig YearsTests";
+			productName = "Pig YearsTests";
+			productReference = 295D73F81F39BFF6008A3D15 /* Pig YearsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		295D74021F39BFF6008A3D15 /* Pig YearsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295D74121F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig YearsUITests" */;
+			buildPhases = (
+				295D73FF1F39BFF6008A3D15 /* Sources */,
+				295D74001F39BFF6008A3D15 /* Frameworks */,
+				295D74011F39BFF6008A3D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				295D74051F39BFF6008A3D15 /* PBXTargetDependency */,
+			);
+			name = "Pig YearsUITests";
+			productName = "Pig YearsUITests";
+			productReference = 295D74031F39BFF6008A3D15 /* Pig YearsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		295D73DC1F39BFF5008A3D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Thaumatech;
+				TargetAttributes = {
+					295D73E31F39BFF5008A3D15 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					295D73F71F39BFF6008A3D15 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 295D73E31F39BFF5008A3D15;
+					};
+					295D74021F39BFF6008A3D15 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 295D73E31F39BFF5008A3D15;
+					};
+				};
+			};
+			buildConfigurationList = 295D73DF1F39BFF5008A3D15 /* Build configuration list for PBXProject "Pig Years" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 295D73DB1F39BFF5008A3D15;
+			productRefGroup = 295D73E51F39BFF6008A3D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				295D73E31F39BFF5008A3D15 /* Pig Years */,
+				295D73F71F39BFF6008A3D15 /* Pig YearsTests */,
+				295D74021F39BFF6008A3D15 /* Pig YearsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		295D73E21F39BFF5008A3D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295D73F21F39BFF6008A3D15 /* LaunchScreen.storyboard in Resources */,
+				295D73EF1F39BFF6008A3D15 /* Assets.xcassets in Resources */,
+				295D73ED1F39BFF6008A3D15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D73F61F39BFF6008A3D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D74011F39BFF6008A3D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		295D73E01F39BFF5008A3D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295D73EA1F39BFF6008A3D15 /* ViewController.swift in Sources */,
+				295D73E81F39BFF6008A3D15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D73F41F39BFF6008A3D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295D73FD1F39BFF6008A3D15 /* Pig_YearsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295D73FF1F39BFF6008A3D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295D74081F39BFF6008A3D15 /* Pig_YearsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		295D73FA1F39BFF6008A3D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 295D73E31F39BFF5008A3D15 /* Pig Years */;
+			targetProxy = 295D73F91F39BFF6008A3D15 /* PBXContainerItemProxy */;
+		};
+		295D74051F39BFF6008A3D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 295D73E31F39BFF5008A3D15 /* Pig Years */;
+			targetProxy = 295D74041F39BFF6008A3D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		295D73EB1F39BFF6008A3D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				295D73EC1F39BFF6008A3D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				295D73F11F39BFF6008A3D15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		295D740A1F39BFF6008A3D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		295D740B1F39BFF6008A3D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		295D740D1F39BFF6008A3D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pig Years/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-Years";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		295D740E1F39BFF6008A3D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pig Years/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-Years";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		295D74101F39BFF6008A3D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pig YearsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-YearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pig Years.app/Pig Years";
+			};
+			name = Debug;
+		};
+		295D74111F39BFF6008A3D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pig YearsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-YearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pig Years.app/Pig Years";
+			};
+			name = Release;
+		};
+		295D74131F39BFF6008A3D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pig YearsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-YearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pig Years";
+			};
+			name = Debug;
+		};
+		295D74141F39BFF6008A3D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pig YearsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaumatech.Pig-YearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pig Years";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		295D73DF1F39BFF5008A3D15 /* Build configuration list for PBXProject "Pig Years" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295D740A1F39BFF6008A3D15 /* Debug */,
+				295D740B1F39BFF6008A3D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		295D740C1F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig Years" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295D740D1F39BFF6008A3D15 /* Debug */,
+				295D740E1F39BFF6008A3D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		295D740F1F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig YearsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295D74101F39BFF6008A3D15 /* Debug */,
+				295D74111F39BFF6008A3D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		295D74121F39BFF6008A3D15 /* Build configuration list for PBXNativeTarget "Pig YearsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295D74131F39BFF6008A3D15 /* Debug */,
+				295D74141F39BFF6008A3D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 295D73DC1F39BFF5008A3D15 /* Project object */;
+}
