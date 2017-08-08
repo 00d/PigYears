@@ -47,6 +47,7 @@
 		295D74031F39BFF6008A3D15 /* Pig YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pig YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig_YearsUITests.swift; sourceTree = "<group>"; };
 		295D74091F39BFF6008A3D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295D74161F39C5F6008A3D15 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pig.png; path = ../../pig.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 				295D73EB1F39BFF6008A3D15 /* Main.storyboard */,
 				295D73EE1F39BFF6008A3D15 /* Assets.xcassets */,
 				295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */,
+				295D74161F39C5F6008A3D15 /* pig.png */,
 				295D73F31F39BFF6008A3D15 /* Info.plist */,
 			);
 			path = "Pig Years";
