@@ -14,6 +14,8 @@
 		295D73F21F39BFF6008A3D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */; };
 		295D73FD1F39BFF6008A3D15 /* Pig_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D73FC1F39BFF6008A3D15 /* Pig_YearsTests.swift */; };
 		295D74081F39BFF6008A3D15 /* Pig_YearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */; };
+		295D74181F3BFEA2008A3D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295D74171F3BFEA2008A3D15 /* Assets.xcassets */; };
+		29FD59C41F3BFEF30027B521 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD59C31F3BFEF20027B521 /* pig.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,8 @@
 		295D74031F39BFF6008A3D15 /* Pig YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pig YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295D74071F39BFF6008A3D15 /* Pig_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig_YearsUITests.swift; sourceTree = "<group>"; };
 		295D74091F39BFF6008A3D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		295D74161F39C5F6008A3D15 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pig.png; path = ../../pig.png; sourceTree = "<group>"; };
+		295D74171F3BFEA2008A3D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FD59C31F3BFEF20027B521 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pig.png; path = Assets.xcassets/pig.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +101,13 @@
 		295D73E61F39BFF6008A3D15 /* Pig Years */ = {
 			isa = PBXGroup;
 			children = (
+				29FD59C31F3BFEF20027B521 /* pig.png */,
+				295D74171F3BFEA2008A3D15 /* Assets.xcassets */,
 				295D73E71F39BFF6008A3D15 /* AppDelegate.swift */,
 				295D73E91F39BFF6008A3D15 /* ViewController.swift */,
 				295D73EB1F39BFF6008A3D15 /* Main.storyboard */,
 				295D73EE1F39BFF6008A3D15 /* Assets.xcassets */,
 				295D73F01F39BFF6008A3D15 /* LaunchScreen.storyboard */,
-				295D74161F39C5F6008A3D15 /* pig.png */,
 				295D73F31F39BFF6008A3D15 /* Info.plist */,
 			);
 			path = "Pig Years";
@@ -231,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FD59C41F3BFEF30027B521 /* pig.png in Resources */,
 				295D73F21F39BFF6008A3D15 /* LaunchScreen.storyboard in Resources */,
 				295D73EF1F39BFF6008A3D15 /* Assets.xcassets in Resources */,
+				295D74181F3BFEA2008A3D15 /* Assets.xcassets in Resources */,
 				295D73ED1F39BFF6008A3D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
